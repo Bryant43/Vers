@@ -1,4 +1,4 @@
-update=Wed 09 May 2018 23:42:13 EAT
+update=Thu 17 May 2018 05:31:48 PM EAT
 version=1
 last_client=kicad
 [pcbnew]
@@ -139,3 +139,4 @@ LibName107=xilinx-virtex7
 LibName108=zetex
 LibName109=Zilog
 LibName110=photodiode-cache
+LibName111=sdcard_1051620101
