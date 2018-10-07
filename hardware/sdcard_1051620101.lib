@@ -1,6 +1,7 @@
 EESchema-LIBRARY Version 2.3
 #encoding utf-8
 #
+<<<<<<< HEAD
 # SC_CARD
 #
 DEF SC_CARD U 0 40 Y Y 1 F N
@@ -24,6 +25,8 @@ X DET P9 1100 -350 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+=======
+>>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 # sdcard_1051620101
 #
 DEF sdcard_1051620101 conn1 0 40 Y Y 1 F N
