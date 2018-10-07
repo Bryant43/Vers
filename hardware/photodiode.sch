@@ -21,27 +21,24 @@ LIBS:ESD_Protection
 LIBS:ftdi
 LIBS:gennum
 LIBS:hc11
+LIBS:infineon
 LIBS:intel
 LIBS:interface
+LIBS:intersil
 LIBS:ir
 LIBS:Lattice
-<<<<<<< HEAD
 LIBS:LEM
 LIBS:linear
 LIBS:logic_programmable
-=======
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 LIBS:maxim
 LIBS:memory
 LIBS:microchip
 LIBS:microcontrollers
-<<<<<<< HEAD
 LIBS:modules
-=======
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 LIBS:motor_drivers
 LIBS:motorola
 LIBS:nordicsemi
+LIBS:nxp
 LIBS:onsemi
 LIBS:opto
 LIBS:Oscillators
@@ -53,19 +50,13 @@ LIBS:pspice
 LIBS:references
 LIBS:regul
 LIBS:rfcom
-<<<<<<< HEAD
 LIBS:RFSolutions
-=======
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 LIBS:sensors
 LIBS:silabs
 LIBS:siliconi
 LIBS:supertex
 LIBS:texas
-<<<<<<< HEAD
 LIBS:triac_thyristor
-=======
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 LIBS:video
 LIBS:wiznet
 LIBS:Worldsemi
@@ -73,13 +64,7 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-<<<<<<< HEAD
 EELAYER 25 0
-=======
-LIBS:photodiode-cache
-LIBS:sdcard_1051620101
-EELAYER 26 0
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -100,7 +85,6 @@ SWD interface
 Text Notes 3450 2850 0    60   ~ 0
 3v3 voltage regulator
 $Comp
-<<<<<<< HEAD
 L LED D1
 U 1 1 5AF38D22
 P 6350 5300
@@ -120,27 +104,6 @@ F 1 "75" V 6350 5000 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" V 6280 5000 50  0001 C CNN
 F 3 "" H 6350 5000 50  0001 C CNN
 	1    6350 5000
-=======
-L LED D2
-U 1 1 5AF38D22
-P 10600 1650
-F 0 "D2" H 10600 1750 50  0000 C CNN
-F 1 "LED" H 10600 1550 50  0000 C CNN
-F 2 "" H 10600 1650 50  0001 C CNN
-F 3 "" H 10600 1650 50  0001 C CNN
-	1    10600 1650
-	0    1    1    0   
-$EndComp
-$Comp
-L R R5
-U 1 1 5AF38D73
-P 10600 1350
-F 0 "R5" V 10680 1350 50  0000 C CNN
-F 1 "R" V 10600 1350 50  0000 C CNN
-F 2 "" V 10530 1350 50  0001 C CNN
-F 3 "" H 10600 1350 50  0001 C CNN
-	1    10600 1350
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 	-1   0    0    1   
 $EndComp
 Text GLabel 6350 4850 1    60   Input ~ 0
@@ -148,21 +111,12 @@ Text GLabel 6350 4850 1    60   Input ~ 0
 $Comp
 L CONN_5X2 P1
 U 1 1 5AF38F92
-<<<<<<< HEAD
 P 8500 1300
 F 0 "P1" H 8500 1600 50  0000 C CNN
 F 1 "CONN_5X2" V 8500 1300 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm_SMD" H 8500 1300 50  0001 C CNN
 F 3 "" H 8500 1300 50  0000 C CNN
 	1    8500 1300
-=======
-P 4750 1350
-F 0 "P1" H 4750 1650 50  0000 C CNN
-F 1 "CONN_5X2" V 4750 1350 50  0000 C CNN
-F 2 "" H 4750 1350 50  0000 C CNN
-F 3 "" H 4750 1350 50  0000 C CNN
-	1    4750 1350
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 	1    0    0    -1  
 $EndComp
 Text GLabel 9050 1100 2    47   Input ~ 0
@@ -179,7 +133,6 @@ NoConn ~ 8850 1300
 Text GLabel 8150 1500 0    47   Input ~ 0
 GND
 $Comp
-<<<<<<< HEAD
 L C_Small C6
 U 1 1 5AF39A3D
 P 9400 1650
@@ -188,36 +141,17 @@ F 1 "100n" H 9410 1570 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 9400 1650 50  0001 C CNN
 F 3 "" H 9400 1650 50  0001 C CNN
 	1    9400 1650
-=======
-L C_Small C7
-U 1 1 5AF39A3D
-P 5650 1700
-F 0 "C7" H 5660 1770 50  0000 L CNN
-F 1 "C_Small" H 5660 1620 50  0000 L CNN
-F 2 "" H 5650 1700 50  0001 C CNN
-F 3 "" H 5650 1700 50  0001 C CNN
-	1    5650 1700
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 	1    0    0    -1  
 $EndComp
 $Comp
 L R_Small R2
 U 1 1 5AF39CB8
-<<<<<<< HEAD
 P 9400 1300
 F 0 "R2" H 9430 1320 50  0000 L CNN
 F 1 "10k" H 9430 1260 50  0000 L CNN
 F 2 "Resistors_SMD:R_1206" H 9400 1300 50  0001 C CNN
 F 3 "" H 9400 1300 50  0001 C CNN
 	1    9400 1300
-=======
-P 5650 1350
-F 0 "R2" H 5680 1370 50  0000 L CNN
-F 1 "R_Small" H 5680 1310 50  0000 L CNN
-F 2 "" H 5650 1350 50  0001 C CNN
-F 3 "" H 5650 1350 50  0001 C CNN
-	1    5650 1350
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 	1    0    0    -1  
 $EndComp
 Text GLabel 9400 1200 1    47   Input ~ 0
@@ -227,21 +161,12 @@ GND
 $Comp
 L SW_Push SW1
 U 1 1 5AF3A368
-<<<<<<< HEAD
 P 9900 1750
 F 0 "SW1" H 9950 1850 50  0000 L CNN
 F 1 "SW_Push" H 9900 1690 50  0000 C CNN
 F 2 "Buttons_Switches_SMD:SW_SPST_EVPBF" H 9900 1950 50  0001 C CNN
 F 3 "" H 9900 1950 50  0001 C CNN
 	1    9900 1750
-=======
-P 6150 1800
-F 0 "SW1" H 6200 1900 50  0000 L CNN
-F 1 "SW_Push" H 6150 1740 50  0000 C CNN
-F 2 "" H 6150 2000 50  0001 C CNN
-F 3 "" H 6150 2000 50  0001 C CNN
-	1    6150 1800
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 	0    -1   -1   0   
 $EndComp
 Text GLabel 10000 1500 2    47   Input ~ 0
@@ -249,7 +174,6 @@ RESET
 Text GLabel 9900 1950 3    47   Input ~ 0
 GND
 $Comp
-<<<<<<< HEAD
 L Conn_01x08 J3
 U 1 1 5AF3BE3D
 P 7900 3200
@@ -258,16 +182,6 @@ F 1 "Conn_01x08" H 7900 2700 50  0000 C CNN
 F 2 "photodiode_footprints:Socket_Strip_Straight_1x08_Pitch2.54mm" H 7900 3200 50  0001 C CNN
 F 3 "" H 7900 3200 50  0001 C CNN
 	1    7900 3200
-=======
-L Conn_01x08 J2
-U 1 1 5AF3BE3D
-P 7450 1600
-F 0 "J2" H 7450 2000 50  0000 C CNN
-F 1 "Conn_01x08" H 7450 1100 50  0000 C CNN
-F 2 "" H 7450 1600 50  0001 C CNN
-F 3 "" H 7450 1600 50  0001 C CNN
-	1    7450 1600
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 	-1   0    0    1   
 $EndComp
 Text GLabel 8100 2800 2    47   Input ~ 0
@@ -291,7 +205,6 @@ USER LED
 Text GLabel 3350 2000 0    60   Input ~ 0
 5V
 $Comp
-<<<<<<< HEAD
 L C_Small C1
 U 1 1 5AF40071
 P 3350 2150
@@ -311,20 +224,9 @@ F 1 "100nF" H 3560 2070 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 3550 2150 50  0001 C CNN
 F 3 "" H 3550 2150 50  0001 C CNN
 	1    3550 2150
-=======
-L nokia1202LCD CONN1
-U 1 1 5AF3CE6D
-P 9100 1050
-F 0 "CONN1" H 9000 0   60  0000 C CNN
-F 1 "nokia1202LCD" H 9100 1150 60  0000 C CNN
-F 2 "" H 9100 1050 60  0001 C CNN
-F 3 "" H 9100 1050 60  0001 C CNN
-	1    9100 1050
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 	1    0    0    -1  
 $EndComp
 $Comp
-<<<<<<< HEAD
 L LT1129-3.3_SOT223 U1
 U 1 1 5AF40221
 P 4050 2000
@@ -333,22 +235,11 @@ F 1 "LT1129" H 4100 1750 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-223" H 4050 2225 50  0001 C CIN
 F 3 "" H 4050 1950 50  0001 C CNN
 	1    4050 2000
-=======
-L C_Small C9
-U 1 1 5AF3D198
-P 8450 1700
-F 0 "C9" H 8460 1770 50  0000 L CNN
-F 1 "0.1uF" H 8460 1620 50  0000 L CNN
-F 2 "" H 8450 1700 50  0001 C CNN
-F 3 "" H 8450 1700 50  0001 C CNN
-	1    8450 1700
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 	1    0    0    -1  
 $EndComp
 Text GLabel 4050 2400 3    60   Input ~ 0
 GND
 $Comp
-<<<<<<< HEAD
 L C_Small C3
 U 1 1 5AF413DB
 P 4450 2150
@@ -375,17 +266,6 @@ F 2 "Housings_DFN_QFN:QFN-32-1EP_7x7mm_Pitch0.65mm" H 2300 4800 60  0001 C CNN
 F 3 "" H 2300 4800 60  0000 C CNN
 	1    3200 4750
 	1    0    0    -1  
-=======
-L R_Small R4
-U 1 1 5AF3DDBE
-P 9650 1500
-F 0 "R4" H 9680 1520 50  0000 L CNN
-F 1 "680" V 9650 1450 39  0000 L CNN
-F 2 "" H 9650 1500 50  0001 C CNN
-F 3 "" H 9650 1500 50  0001 C CNN
-	1    9650 1500
-	0    1    1    0   
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 $EndComp
 Text GLabel 2650 4200 0    47   Input ~ 0
 RESET
@@ -400,7 +280,6 @@ GND
 Text GLabel 4000 4600 1    60   Input ~ 0
 3V3
 $Comp
-<<<<<<< HEAD
 L C_Small C4
 U 1 1 5AF4A7F0
 P 4000 4700
@@ -410,17 +289,6 @@ F 2 "Capacitors_SMD:C_0805" H 4000 4700 50  0001 C CNN
 F 3 "" H 4000 4700 50  0001 C CNN
 	1    4000 4700
 	1    0    0    -1  
-=======
-L R_Small R3
-U 1 1 5AF3E2AD
-P 9650 1250
-F 0 "R3" H 9680 1270 50  0000 L CNN
-F 1 "0" V 9650 1200 39  0000 L CNN
-F 2 "" H 9650 1250 50  0001 C CNN
-F 3 "" H 9650 1250 50  0001 C CNN
-	1    9650 1250
-	0    1    1    0   
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 $EndComp
 Text GLabel 4000 4800 3    47   Input ~ 0
 GND
@@ -443,7 +311,6 @@ CE
 Text GLabel 2750 4500 0    47   Input ~ 0
 CLK
 $Comp
-<<<<<<< HEAD
 L C C7
 U 1 1 5AFC8A5C
 P 10150 5600
@@ -463,27 +330,6 @@ F 1 "SC_CARD" H 9250 4250 60  0000 C CNN
 F 2 "sdcard:sdcard_1051620101" H 8550 4950 60  0001 C CNN
 F 3 "" H 8550 4950 60  0001 C CNN
 	1    8550 4950
-=======
-L BAS40-05 D1
-U 1 1 5AF3F55F
-P 1750 1450
-F 0 "D1" H 2000 1450 50  0000 L CNN
-F 1 "BAS40-05" H 1800 1550 50  0000 L CNN
-F 2 "" H 1750 1450 60  0001 C CNN
-F 3 "" H 1750 1450 60  0001 C CNN
-	1    1750 1450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Jumper_NO_Small JP1
-U 1 1 5AF3F5C2
-P 1700 1100
-F 0 "JP1" H 1700 1180 50  0000 C CNN
-F 1 "Jumper" H 1900 1150 50  0000 C CNN
-F 2 "" H 1700 1100 50  0001 C CNN
-F 3 "" H 1700 1100 50  0001 C CNN
-	1    1700 1100
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -510,7 +356,6 @@ GND
 Text GLabel 3700 1300 2    60   Input ~ 0
 5V
 $Comp
-<<<<<<< HEAD
 L Conn_01x04 J2
 U 1 1 5BAB8BC1
 P 3500 1500
@@ -520,17 +365,6 @@ F 2 "Pin_Headers:Pin_Header_Angled_1x04_Wide_Pitch2.54mm" H 3500 1500 50  0001 C
 F 3 "" H 3500 1500 50  0001 C CNN
 	1    3500 1500
 	-1   0    0    1   
-=======
-L C_Small C1
-U 1 1 5AF40071
-P 1650 1850
-F 0 "C1" H 1450 1850 50  0000 L CNN
-F 1 "100nF" H 1400 1750 50  0000 L CNN
-F 2 "" H 1650 1850 50  0001 C CNN
-F 3 "" H 1650 1850 50  0001 C CNN
-	1    1650 1850
-	1    0    0    -1  
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 $EndComp
 Text GLabel 3700 1400 2    60   Input ~ 0
 UART_RX
@@ -547,7 +381,6 @@ NoConn ~ 2750 4850
 NoConn ~ 2750 4550
 NoConn ~ 2750 4450
 $Comp
-<<<<<<< HEAD
 L Conn_01x04 J1
 U 1 1 5BABA82B
 P 1250 4150
@@ -557,24 +390,12 @@ F 2 "Pin_Headers:Pin_Header_Angled_1x04_Wide_Pitch2.54mm" H 1250 4150 50  0001 C
 F 3 "" H 1250 4150 50  0001 C CNN
 	1    1250 4150
 	-1   0    0    1   
-=======
-L C_Small C2
-U 1 1 5AF400D8
-P 1850 1850
-F 0 "C2" H 1950 1850 50  0000 L CNN
-F 1 "100nF" H 1860 1770 50  0000 L CNN
-F 2 "" H 1850 1850 50  0001 C CNN
-F 3 "" H 1850 1850 50  0001 C CNN
-	1    1850 1850
-	1    0    0    -1  
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 $EndComp
 Text GLabel 1450 4050 2    47   Input ~ 0
 GND
 Text GLabel 1450 4250 2    47   Input ~ 0
 GND
 $Comp
-<<<<<<< HEAD
 L R_Small R1
 U 1 1 5BABBDBF
 P 8950 950
@@ -583,16 +404,6 @@ F 1 "100" H 8980 910 50  0000 L CNN
 F 2 "Resistors_SMD:R_1206" H 8950 950 50  0001 C CNN
 F 3 "" H 8950 950 50  0001 C CNN
 	1    8950 950 
-=======
-L LT1129-3.3_SOT223 U1
-U 1 1 5AF40221
-P 2350 1700
-F 0 "U1" H 2200 1825 50  0000 C CNN
-F 1 "LT1129" H 2400 1450 50  0000 L CNN
-F 2 "TO_SOT_Packages_SMD:SOT-223-3_TabPin2" H 2350 1925 50  0001 C CIN
-F 3 "" H 2350 1650 50  0001 C CNN
-	1    2350 1700
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 	1    0    0    -1  
 $EndComp
 Text GLabel 9200 800  2    47   Input ~ 0
@@ -647,26 +458,7 @@ Wire Wire Line
 Wire Wire Line
 	3350 2250 3350 2350
 Wire Wire Line
-<<<<<<< HEAD
 	3350 2350 4450 2350
-=======
-	1850 1950 1850 2050
-Connection ~ 1850 2050
-Connection ~ 2350 2050
-$Comp
-L C_Small C3
-U 1 1 5AF413DB
-P 2750 1850
-F 0 "C3" H 2760 1920 50  0000 L CNN
-F 1 "100nF" H 2760 1770 50  0000 L CNN
-F 2 "" H 2750 1850 50  0001 C CNN
-F 3 "" H 2750 1850 50  0001 C CNN
-	1    2750 1850
-	1    0    0    -1  
-$EndComp
-Text GLabel 2750 1550 1    60   Input ~ 0
-3V3
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 Wire Wire Line
 	4050 2300 4050 2400
 Wire Wire Line
@@ -678,83 +470,11 @@ Wire Wire Line
 Wire Wire Line
 	2650 4200 2750 4200
 Wire Wire Line
-<<<<<<< HEAD
 	3650 5050 4150 5050
-=======
-	1800 1100 1800 1250
-$Comp
-L Conn_01x02 J1
-U 1 1 5AF428A3
-P 1200 3600
-F 0 "J1" H 1200 3700 50  0000 C CNN
-F 1 "Conn_01x02" H 1200 3400 50  0000 C CNN
-F 2 "" H 1200 3600 50  0001 C CNN
-F 3 "" H 1200 3600 50  0001 C CNN
-	1    1200 3600
-	-1   0    0    1   
-$EndComp
-Text GLabel 1400 3500 2    60   Input ~ 0
-ADCin0
-Text GLabel 1400 3600 2    60   Input ~ 0
-ADCin1
-$Comp
-L LPC1112FHN33/102 U2
-U 1 1 5AF4682E
-P 3200 4400
-F 0 "U2" H 3350 5100 60  0000 C CNN
-F 1 "LPC1112FHN33/102" H 3350 3700 28  0000 C CNN
-F 2 "" H 2300 4450 60  0000 C CNN
-F 3 "" H 2300 4450 60  0000 C CNN
-	1    3200 4400
-	1    0    0    -1  
-$EndComp
-Text GLabel 2650 3850 0    47   Input ~ 0
-RESET
-$Comp
-L R_Small R1
-U 1 1 5AF46FB3
-P 2700 3700
-F 0 "R1" H 2730 3720 50  0000 L CNN
-F 1 "R_Small" H 2730 3660 50  0000 L CNN
-F 2 "" H 2700 3700 50  0001 C CNN
-F 3 "" H 2700 3700 50  0001 C CNN
-	1    2700 3700
-	1    0    0    -1  
-$EndComp
-Text GLabel 2700 3600 1    60   Input ~ 0
-3V3
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 Wire Wire Line
 	4150 5050 4150 5450
 Wire Wire Line
-<<<<<<< HEAD
 	3650 5100 3850 5100
-=======
-	2700 3800 2700 3850
-Connection ~ 2700 3850
-$Comp
-L Jumper_NO_Small JP3
-U 1 1 5AF47BB3
-P 2200 4800
-F 0 "JP3" H 2200 4700 50  0000 C CNN
-F 1 "Jumper" H 2200 4650 50  0000 C CNN
-F 2 "" H 2200 4800 50  0001 C CNN
-F 3 "" H 2200 4800 50  0001 C CNN
-	1    2200 4800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper_NO_Small JP2
-U 1 1 5AF47C14
-P 2200 4750
-F 0 "JP2" H 2200 4900 50  0000 C CNN
-F 1 "Jumper" H 2200 4850 50  0000 C CNN
-F 2 "" H 2200 4750 50  0001 C CNN
-F 3 "" H 2200 4750 50  0001 C CNN
-	1    2200 4750
-	1    0    0    -1  
-$EndComp
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 Wire Wire Line
 	3850 5100 3850 5450
 Wire Wire Line
@@ -764,33 +484,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 4650 2750 4650
 Wire Wire Line
-<<<<<<< HEAD
 	2300 4550 2400 4550
-=======
-	2000 4800 2100 4800
-$Comp
-L C_Small C4
-U 1 1 5AF48DCA
-P 3750 5200
-F 0 "C4" H 3760 5270 50  0000 L CNN
-F 1 "18pF" H 3760 5120 50  0000 L CNN
-F 2 "" H 3750 5200 50  0001 C CNN
-F 3 "" H 3750 5200 50  0001 C CNN
-	1    3750 5200
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_Small C6
-U 1 1 5AF48F42
-P 4250 5200
-F 0 "C6" H 4260 5270 50  0000 L CNN
-F 1 "18pF" H 4260 5120 50  0000 L CNN
-F 2 "" H 4250 5200 50  0001 C CNN
-F 3 "" H 4250 5200 50  0001 C CNN
-	1    4250 5200
-	1    0    0    -1  
-$EndComp
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 Wire Wire Line
 	2400 4550 2400 4600
 Wire Wire Line
@@ -848,7 +542,6 @@ NoConn ~ 8150 1400
 Wire Wire Line
 	2500 4950 2750 4950
 $Comp
-<<<<<<< HEAD
 L C_Small C5
 U 1 1 5BABB5CB
 P 4350 4700
@@ -857,16 +550,6 @@ F 1 "10nF" H 4400 4650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4350 4700 50  0001 C CNN
 F 3 "" H 4350 4700 50  0001 C CNN
 	1    4350 4700
-=======
-L Crystal_Small Y1
-U 1 1 5AF4985F
-P 4000 5000
-F 0 "Y1" H 4000 5100 50  0000 C CNN
-F 1 "Crystal" H 4000 4900 50  0000 C CNN
-F 2 "" H 4000 5000 50  0001 C CNN
-F 3 "" H 4000 5000 50  0001 C CNN
-	1    4000 5000
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 	1    0    0    -1  
 $EndComp
 Connection ~ 4000 4600
@@ -878,7 +561,6 @@ Text GLabel 6350 5450 3    47   Input ~ 0
 LED
 Text GLabel 9750 5050 2    60   Input ~ 0
 GND
-<<<<<<< HEAD
 Wire Wire Line
 	9650 5150 9650 5050
 Wire Wire Line
@@ -886,22 +568,6 @@ Wire Wire Line
 Text GLabel 8500 5100 0    60   Input ~ 0
 CE
 Text GLabel 10150 5750 3    60   Input ~ 0
-=======
-Text GLabel 4000 4250 1    60   Input ~ 0
-3V3
-$Comp
-L C_Small C5
-U 1 1 5AF4A7F0
-P 4000 4350
-F 0 "C5" H 4050 4400 50  0000 L CNN
-F 1 "100nF" H 4050 4300 50  0000 L CNN
-F 2 "" H 4000 4350 50  0001 C CNN
-F 3 "" H 4000 4350 50  0001 C CNN
-	1    4000 4350
-	1    0    0    -1  
-$EndComp
-Text GLabel 4000 4450 3    47   Input ~ 0
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 GND
 Text GLabel 10150 5350 1    60   Input ~ 0
 3v3
@@ -1008,91 +674,7 @@ Wire Wire Line
 Wire Wire Line
 	8250 5400 8500 5400
 Wire Notes Line
-<<<<<<< HEAD
 	7400 4200 10900 4200
 Text Notes 1300 6000 0    60   ~ 0
 Microcontroller
-=======
-	850  5800 850  3200
-Text GLabel 7500 4300 0    20   Input ~ 0
-CE
-$Comp
-L C C8
-U 1 1 5AFC8A5C
-P 8100 4700
-F 0 "C8" H 8215 4746 50  0000 L CNN
-F 1 "C" H 8215 4655 50  0000 L CNN
-F 2 "" H 8138 4550 50  0000 C CNN
-F 3 "" H 8100 4700 50  0000 C CNN
-	1    8100 4700
-	1    0    0    -1  
-$EndComp
-NoConn ~ 7500 4250
-NoConn ~ 7500 4500
-Wire Wire Line
-	7900 4250 8150 4250
-Wire Wire Line
-	8150 4250 8150 4200
-Wire Wire Line
-	7900 4300 7950 4300
-Wire Wire Line
-	7950 4300 7950 4250
-Connection ~ 7950 4250
-Wire Wire Line
-	-67700 -23100 -67700 -23950
-Wire Wire Line
-	-67700 -23950 -225150 -23950
-Wire Wire Line
-	-225150 -23950 -225150 -22800
-Wire Wire Line
-	-218600 -15900 16200 -15900
-Wire Wire Line
-	16200 -15900 16200 5000
-Wire Wire Line
-	16250 600  18100 600 
-Wire Wire Line
-	18100 600  18100 -200
-Text GLabel 7500 4350 0    20   Input ~ 0
-MOSI
-Text GLabel 7500 4400 0    20   Input ~ 0
-CLK
-Text GLabel 7500 4450 0    20   Input ~ 0
-MISO
-Text GLabel 7900 4350 2    20   Input ~ 0
-CE
-Text GLabel 8300 4400 2    20   Input ~ 0
-3v3
-Wire Wire Line
-	7900 4450 8300 4450
-Wire Wire Line
-	8300 4450 8300 4400
-Wire Wire Line
-	8100 4550 8100 4450
-Connection ~ 8100 4450
-$Comp
-L SC_CARD U3
-U 1 1 5AFC541C
-P 7550 4200
-F 0 "U3" H 7700 3650 60  0000 C CNN
-F 1 "SC_CARD" H 7700 4281 60  0000 C CNN
-F 2 "" H 7550 4200 60  0001 C CNN
-F 3 "" H 7550 4200 60  0001 C CNN
-	1    7550 4200
-	1    0    0    -1  
-$EndComp
-Text GLabel 8150 4200 2    20   Input ~ 0
-GND
-Text GLabel 8100 4850 2    20   Input ~ 0
-GND
-Wire Notes Line
-	6300 3300 9850 3300
-Wire Notes Line
-	9850 3300 9850 5350
-Wire Notes Line
-	9850 5350 6350 5350
-Wire Notes Line
-	6350 5350 6350 3300
-Wire Notes Line
-	6350 3300 6250 3300
->>>>>>> e386c2498c0e5fdf8233e1d386fc4653c9b4a931
 $EndSCHEMATC
